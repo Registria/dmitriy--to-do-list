@@ -1,0 +1,34 @@
+As a todo list maker, I can...
+- create new tasks
+- edit existing tasks
+- mark tasks as complete
+- delete tasks
+- leave and come back later to review my tasks
+
+
+
+PLANNING 
+- Create a model/visual representation of the flow (user flow), something like a flow-chart.
+- Figure out the UI, how it's going to look and how the user is going to interact with the program.
+
+WORK
+- Build out the core JS/mechanics/functionality of the program, ignore the vusual/DOM stuff until we can no longer run the program without it. Iron out as many of the bugs as possible, test-driven development.
+- Build out the pretty DOM stuff.
+
+
+PROJECT TO-DO
+1. Plan User flow
+2. Build/test user flow
+  - Write tests - define the API/what each part needs to be able to do
+  - Moving parts/flow
+
+3. Plab out, build out UI
+  COMPONENTS:
+  - Line-item: Displays one item on user's to-do list, ie: task name + short description
+      - Edit line-item: clickable  on a line-item that allows you to edit every aspect of your to-do item
+      - Delete line-item: clickable button that deletes that specific line-item from the list
+      - 'Status' section: allows user to set the status on their line-item from a drop-down. Statuses: Haven't started yet (reword more eloquently), In Progress, Complete
+
+  - Add new task: clickable that allows user to create a brand-new line-tem
+
+
